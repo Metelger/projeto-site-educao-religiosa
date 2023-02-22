@@ -1,10 +1,9 @@
-var visualizacao = document.getElementById('contadorVisualizacao')
-
-contador = () => {
-    var contador = Number(visualizacao.innerHTML)
-    contador += 1
-    visualizacao.innerHTML = contador
-}
+// contador = () => {
+//     var visualizacao = document.getElementById('contadorVisualizacao')
+//     var contador = Number(visualizacao.innerText)
+//     contador ++
+//     visualizacao.innerText = contador
+// }
 
 mudaStyle =() => {
     var txtPublicados = document.getElementById('txtPublicados')
