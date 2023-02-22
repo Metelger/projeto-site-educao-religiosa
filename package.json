@@ -1,0 +1,22 @@
+{
+  "name": "sites",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Metelger/projeto-site-educao-religiosa.git"
+  },
+  "author": "José Guilherme Hunzecher Quaglio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Metelger/projeto-site-educao-religiosa/issues"
+  },
+  "homepage": "https://github.com/Metelger/projeto-site-educao-religiosa#readme"
+}
