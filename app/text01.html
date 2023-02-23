@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>José Quaglio</title>
     <link rel="shortcut icon" href="./jq/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/style-index.css">
-    <script src="scripts/contadorDeVisitas.js"></script>
+    <link rel="stylesheet" href="../styles/style-index.css">
+    <script src="../scripts/contadorDeVisitas.js"></script>
 
 </head>
 <body onload="atualizarContador();">
@@ -21,20 +21,18 @@
         <div class="dropdown" id="txtPublicados"  onclick="mudaStyle()">
             Textos Publicados
             <div class="dropdownMenu">
-                <a onclick="chamaTexto()" href="#">Texto 01 - nome extenso no menu de dropdown</a>
-                <a onclick="chamaTexto2()" href="#">texto 01</a>
-                <a href="app/text01.html">texto 01</a>
+                <a href="#">Texto 01 - nome extenso no menu de dropdown</a>
+                <a href="#">texto 01</a>
+                <a href="#">texto 01</a>
             </div>
         </div>
         <a href="app/about.html">Sobre o autor</a>
     </nav>
     <main>
-        <picture id="photo">
-            <source media="(max-width: 600px)" srcset="images/blue-bird-pq.jpg" type="image/jpeg">
-            <img src="images/blue-bird-original.jpg" alt="imagem inicial">
-        </picture>
         <div style="height: 100%;" id="text01">
-
+            <iframe
+                src="../docs/texto02.html" width="90%" height="1300px" scrolling="no" style="border: none;">
+            </iframe>
         </div>
         <div>
             <label class="contador" id="contadorVisualizacao">51000</label>
@@ -44,6 +42,5 @@
     <footer>
         &copy;Desenvolvido por <strong><a target="_blank" href="https://www.linkedin.com/in/jos%C3%A9-guilherme-hunzecher-quaglio-14b035229/">H.Q. Desenvolvimentos</a></strong>
     </footer>
-    <script src="scripts/script.js"></script>
 </body>
 </html>
