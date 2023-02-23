@@ -28,6 +28,7 @@ header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
 }
 header > h1 {
+    padding: 5px;
     padding-top: 1.5em;
     text-shadow: 1px 2px 5px black;
 }
@@ -72,6 +73,7 @@ main {
     text-align: center;
     border-radius: 0px 0px 10px 10px;
     margin-bottom: 10px;
+    padding: 5px;
 }
 
 main > picture > img {
@@ -157,7 +159,7 @@ iframe.scrollbar::-webkit-scrollbar {
 
 @media screen and (max-width: 600px) {
     iframe {
-        height: 270px;
+        height: 300px;
     }
 }
 

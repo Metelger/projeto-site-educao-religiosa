@@ -27,6 +27,7 @@ header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
 }
 header > h1 {
+    padding: 5px;
     padding-top: 1.5em;
     text-shadow: 1px 2px 5px black;
 }
@@ -94,7 +95,7 @@ footer a:hover {
 }
 
 section > div {
-    padding-top: 20px;
+    padding: 15px;
     display: flex;
     justify-content: center;
 }
@@ -102,14 +103,15 @@ section > div {
 section > div > p {
     width: 500px;
     box-shadow: 0px 0px 10px;
-    background-color: #ffffff
-    ;
+    background-color: var(--cor1);
+    padding: 5px;
 }
 
 section > div > img {
     width: 100px;
     height: 100px;
-    background-color: #ffffff;
+    background-color: var(--cor1);
     box-shadow: -5px 0px 5px;
     z-index: 1;
+    border-radius: 50px 0px 0px 50px;
 }
