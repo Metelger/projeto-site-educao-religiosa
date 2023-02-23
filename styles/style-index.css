@@ -14,7 +14,8 @@
 }
 
 body {
-    background-color: var(--cor3) ;
+    background-color: var(--cor3);
+    height: 100%;
 }
 
 header {
@@ -132,5 +133,13 @@ div > a {
 
 div > a:hover {
     background-color: var(--cor3, );
+    text-decoration: underline;
+}
+
+.contador {
+    display: block;
+    text-align: left;
+    padding: 20px;
+    font-weight: bolder;
     text-decoration: underline;
 }

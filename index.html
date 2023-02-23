@@ -15,27 +15,30 @@
         <h1>
             Educação Religiosa Plural segundo José Quaglio
         </h1>
-        <div>
-            <label id="contadorVisualizacao">51000</label>
-        </div>
     </header>
     <nav>
         <a href="index.html">Home</a>
         <div class="dropdown" id="txtPublicados"  onclick="mudaStyle()">
             Textos Publicados
             <div class="dropdownMenu">
-                <a href="#">Texto 01 - nome extenso no menu de dropdown</a>
-                <a href="#">texto 01</a>
+                <a onclick="chamaTexto()" href="#">Texto 01 - nome extenso no menu de dropdown</a>
+                <a onclick="chamaTexto2()" href="#">texto 01</a>
                 <a href="#">texto 01</a>
             </div>
         </div>
         <a href="app/about.html">Sobre o autor</a>
     </nav>
     <main>
-        <picture>
+        <picture id="photo">
             <source media="(max-width: 600px)" srcset="images/blue-bird-pq.jpg" type="image/jpeg">
             <img src="images/blue-bird-original.jpg" alt="imagem inicial">
         </picture>
+        <div id="text01">
+
+        </div>
+        <div>
+            <label class="contador" id="contadorVisualizacao">51000</label>
+        </div>
         <!-- <audio autoplay loop src="sounds/soft-piano-sondtrack.mp3"></audio> -->
     </main>
     <footer>
