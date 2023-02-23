@@ -104,8 +104,8 @@ footer a:hover {
 
 .dropdownMenu {
     display: none;
-    background-color: red;
     position: absolute;
+    background-color: var(--cor1);
 } 
 
 .dropdown:hover {
@@ -121,6 +121,7 @@ footer a:hover {
     width: 300px;
     margin-top: 10px;
     border-radius: 0px 0px 10px 10px;
+    z-index: 9999;
 }
 
 div > a {
@@ -137,11 +138,11 @@ div > a:hover {
 }
 
 .contador {
-    display: block;
-    text-align: left;
+    text-align: right;
     padding: 20px;
     font-weight: bolder;
     text-decoration: underline;
+    align-self: flex-end;
 }
 
 iframe {
@@ -149,6 +150,10 @@ iframe {
     height: 1000px;
     border: none;
 }
+
+iframe.scrollbar::-webkit-scrollbar {
+    display: none;
+  }
 
 @media screen and (max-width: 600px) {
     iframe {

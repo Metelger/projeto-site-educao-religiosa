@@ -94,18 +94,22 @@ footer a:hover {
 }
 
 section > div {
-    background-color: brown;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
 }
 
 section > div > p {
-    background-color: pink;
     width: 500px;
+    box-shadow: 0px 0px 10px;
+    background-color: #ffffff
+    ;
 }
 
 section > div > img {
-    background-color: orange;
     width: 100px;
     height: 100px;
+    background-color: #ffffff;
+    box-shadow: -5px 0px 5px;
+    z-index: 1;
 }
