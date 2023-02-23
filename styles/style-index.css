@@ -144,6 +144,18 @@ div > a:hover {
     text-decoration: underline;
 }
 
-.iframe-overflow {
-    overflow: hidden;
+iframe {
+    width: 90%;
+    height: 1000px;
+    border: none;
 }
+
+@media screen and (max-width: 600px) {
+    iframe {
+        height: 270px;
+    }
+}
+
+/* ::-webkit-scrollbar{
+    display: none;
+} */
