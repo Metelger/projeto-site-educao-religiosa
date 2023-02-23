@@ -143,3 +143,7 @@ div > a:hover {
     font-weight: bolder;
     text-decoration: underline;
 }
+
+.iframe-overflow {
+    overflow: hidden;
+}

@@ -27,7 +27,6 @@ chamaTexto = () => {
     showText.setAttribute('src', '../docs/texto01.pdf');
     showText.setAttribute('width', '90%');
     showText.setAttribute('height', '1000px');
-
     photo.style.display = 'none'
 
     if(textGenerate === false){
@@ -48,7 +47,8 @@ chamaTexto2 = () => {
 
     showText.setAttribute('src', '../docs/texto02.html');
     showText.setAttribute('width', '90%');
-    showText.setAttribute('height', '1000px');
+    showText.setAttribute('height', '1300px');
+    showText.setAttribute('scrolling', 'no')
     showText.style.border = 'none'
 
     photo.style.display = 'none'
