@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>José Quaglio</title>
     <link rel="shortcut icon" href="./jq/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/style-index.css">
-    <script src="scripts/contadorDeVisitas.js"></script>
+    <link rel="stylesheet" href="../styles/style-index.css">
+    <script src="../scripts/contadorDeVisitas.js"></script>
 
 </head>
 <body onload="atualizarContador();">
@@ -15,33 +15,31 @@
         <h1>
             Educação Religiosa Plural segundo José Quaglio
         </h1>
-        <label class="contador" id="contadorVisualizacao">51000</label>
     </header>
     <nav>
-        <a href="index.html">Home</a>
+        <a href="../index.html">Home</a>
         <div class="dropdown" id="txtPublicados"  onclick="mudaStyle()">
             Textos Publicados
             <div class="dropdownMenu">
                 <a href="#">Texto 01</a>
-                <a href="app/texto02.html">Texto 02</a>
-                <a href="app/text01.html">Texto 03</a>
+                <a href="#">Texto 02</a>
+                <a href="../app/text01.html">Texto 03</a>
             </div>
         </div>
-        <a href="app/about.html">Sobre o autor</a>
+        <a href="../app/about.html">Sobre o autor</a>
     </nav>
     <main>
-        <picture id="photo">
-            <source media="(max-width: 600px)" srcset="images/blue-bird-pq.jpg" type="image/jpeg">
-            <img src="images/blue-bird-original.jpg" alt="imagem inicial">
-        </picture>
-        <div style="height: 100%;" id="text01">
-
+        <div id="text01">
+            <iframe class="scrollbar" src="../docs/texto2.html"></iframe>
+        </div>
+        <div>
+            <label class="contador" id="contadorVisualizacao">51000</label>
         </div>
         <!-- <audio autoplay loop src="sounds/soft-piano-sondtrack.mp3"></audio> -->
     </main>
     <footer>
         &copy;Desenvolvido por <strong><a target="_blank" href="https://www.linkedin.com/in/jos%C3%A9-guilherme-hunzecher-quaglio-14b035229/">H.Q. Desenvolvimentos</a></strong>
     </footer>
-    <script src="scripts/script.js"></script>
+    <script src="../scripts/script.js"></script>
 </body>
 </html>
